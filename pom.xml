@@ -18,6 +18,14 @@
     <name>Enterprise Commerce Platform</name>
     <description>Production-oriented event-driven e-commerce platform</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
     <modules>
         <module>platform-common</module>
         <module>api-gateway</module>
